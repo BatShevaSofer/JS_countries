@@ -1,0 +1,28 @@
+nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: 1000ms;
+    margin: 0 auto;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: 1000ms;
+    margin: 0 auto;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
